@@ -68,7 +68,7 @@ def find_empty(bo):
 bo = []
 row = []
 
-with open("D:/Work/PROJECTS/Jocuri/Sudoku/Level 2.txt", "r") as file:
+with open("Puzzle.txt", "r") as file:
     for line in file:
         for elem in line:
             if elem != "\n":
