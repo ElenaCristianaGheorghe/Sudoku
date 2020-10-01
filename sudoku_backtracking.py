@@ -68,7 +68,7 @@ def find_empty(bo):
 bo = []
 row = []
 
-with open("Puzzle.txt", "r") as file:
+with open("Puzzle.txt", "r") as file: #don't forget to write the path of the directory where the Level file is stored 
     for line in file:
         for elem in line:
             if elem != "\n":
